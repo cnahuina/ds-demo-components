@@ -1,0 +1,59 @@
+@use "./../base/typography" as text;
+@use "./../base/colors" as color;
+@import "./../base/ride.scss";
+
+.ride-sp-btn-default-primary{
+    @include text.ride-sys-text-label-2xlarge-default;
+    @include color.ride-sys-color-text-inverse;
+    @include color.ride-sys-color-surface-inverse;
+    @include color.ride-sys-color-border-extreme;
+    border-width: #{$ride-gl-border-width-medium};
+    border-style: solid;
+    border-radius: #{$ride-gl-border-radius-pill};
+    padding-left: #{$ride-gl-spacing-5xlarge};
+    padding-right: #{$ride-gl-spacing-5xlarge};
+    padding-top: #{$ride-gl-spacing-2xlarge - $ride-gl-spacing-xsmall};
+    padding-bottom: #{$ride-gl-spacing-2xlarge - $ride-gl-spacing-xsmall};
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        @include color.ride-sys-color-text-extreme;
+        @include color.ride-sys-color-surface-transparent;
+    }   
+}
+
+.ride-sp-btn-default-primary-icon-right{
+    @include text.ride-sys-text-label-2xlarge-default;
+    @include color.ride-sys-color-text-inverse;
+    @include color.ride-sys-color-surface-inverse;
+    @include color.ride-sys-color-border-extreme;
+    border-width: #{$ride-gl-border-width-medium};
+    border-style: solid;
+    border-radius: #{$ride-gl-border-radius-pill};
+    padding-left: #{$ride-gl-spacing-5xlarge};
+    padding-right: #{$ride-gl-spacing-5xlarge};
+    padding-top: #{$ride-gl-spacing-2xlarge - 0.125rem};
+    padding-bottom: #{$ride-gl-spacing-2xlarge - 0.125rem};
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    &:hover{
+        @include color.ride-sys-color-text-extreme;
+        @include color.ride-sys-color-surface-transparent;
+        svg {
+            path{
+                @include color.ride-sys-color-glyph-default;
+            }  
+        }
+    }
+    svg{
+        margin-left: #{$ride-gl-spacing-medium};
+        width: #{$ride-gl-size-graphic-large};
+        path{
+            @include color.ride-sys-color-glyph-inverse;
+        }
+    }  
+}
