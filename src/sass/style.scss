@@ -9,3 +9,6 @@ section{
     align-items: center;
     justify-content: center;
 }
+h1{
+    @include color.ride-sys-color-text-extreme;
+}

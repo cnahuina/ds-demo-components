@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <section>
+        <h1>Prueba de tokens</h1>
         <button className='ride-sp-btn-default-primary'>Primary</button>
         <br />
         <button className='ride-sp-btn-default-primary-icon-right'>With Icon 
