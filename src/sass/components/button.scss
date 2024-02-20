@@ -29,9 +29,9 @@
     @include color.hana-sp-color-text-inverse;
     @include color.hana-sp-color-surface-inverse;
     @include color.hana-sp-color-border-extreme;
-    border-width: #{$hana-core-border-width-medium};
+    border-width: #{$hana-core-border-width-thick};
     border-style: solid;
-    border-radius: #{$hana-core-border-radius-pill};
+    border-radius: #{$hana-core-border-radius-medium};
     padding-left: #{$hana-core-spacing-5xlarge};
     padding-right: #{$hana-core-spacing-5xlarge};
     padding-top: #{$hana-core-spacing-2xlarge - 0.125rem};
