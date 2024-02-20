@@ -1,7 +1,7 @@
 @use "./base/colors" as color;
 
 section{
-    @include color.ride-sys-color-background-subtle;
+    @include color.hana-sp-color-background-subtle;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -10,5 +10,5 @@ section{
     justify-content: center;
 }
 h1{
-    @include color.ride-sys-color-text-extreme;
+    @include color.hana-sp-color-text-extreme;
 }

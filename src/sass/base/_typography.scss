@@ -1,29 +1,29 @@
-@import "./ride.scss";
+@import "./hana.scss";
 
 // Paragraph TextStyle
-@mixin ride-sys-text-paragraph-2xlarge-default{
-    font-family: #{$ride-sys-text-paragraph-2xlarge-default-fontfamily};
-    font-weight: #{$ride-sys-text-paragraph-2xlarge-default-fontweight};
-    line-height: #{$ride-sys-text-paragraph-2xlarge-default-lineheight};
-    font-size: #{$ride-sys-text-paragraph-2xlarge-default-fontsize};
-    letter-spacing: #{$ride-sys-text-paragraph-2xlarge-default-letterspacing};
+@mixin hana-sp-text-paragraph-2xlarge-default{
+    font-family: #{$hana-sp-text-paragraph-2xlarge-default-fontfamily};
+    font-weight: #{$hana-sp-text-paragraph-2xlarge-default-fontweight};
+    line-height: #{$hana-sp-text-paragraph-2xlarge-default-lineheight};
+    font-size: #{$hana-sp-text-paragraph-2xlarge-default-fontsize};
+    letter-spacing: #{$hana-sp-text-paragraph-2xlarge-default-letterspacing};
     // @content;
 }
-@mixin ride-sys-text-paragraph-xlarge-default{
-    font-family: #{$ride-sys-text-paragraph-xlarge-default-fontfamily};
-    font-weight: #{$ride-sys-text-paragraph-xlarge-default-fontweight};
-    line-height: #{$ride-sys-text-paragraph-xlarge-default-lineheight};
-    font-size: #{$ride-sys-text-paragraph-xlarge-default-fontsize};
-    letter-spacing: #{$ride-sys-text-paragraph-xlarge-default-letterspacing};
+@mixin hana-sp-text-paragraph-xlarge-default{
+    font-family: #{$hana-sp-text-paragraph-xlarge-default-fontfamily};
+    font-weight: #{$hana-sp-text-paragraph-xlarge-default-fontweight};
+    line-height: #{$hana-sp-text-paragraph-xlarge-default-lineheight};
+    font-size: #{$hana-sp-text-paragraph-xlarge-default-fontsize};
+    letter-spacing: #{$hana-sp-text-paragraph-xlarge-default-letterspacing};
     // @content;
 }
 
 // Label TextStyle
-@mixin ride-sys-text-label-2xlarge-default{
-    font-family: #{$ride-sys-text-label-2xlarge-default-fontfamily};
-    font-weight: #{$ride-sys-text-label-2xlarge-default-fontweight};
-    line-height: #{$ride-sys-text-label-2xlarge-default-lineheight};
-    font-size: #{$ride-sys-text-label-2xlarge-default-fontsize};
-    letter-spacing: #{$ride-sys-text-label-2xlarge-default-letterspacing};
+@mixin hana-sp-text-label-2xlarge-default{
+    font-family: #{$hana-sp-text-label-2xlarge-default-fontfamily};
+    font-weight: #{$hana-sp-text-label-2xlarge-default-fontweight};
+    line-height: #{$hana-sp-text-label-2xlarge-default-lineheight};
+    font-size: #{$hana-sp-text-label-2xlarge-default-fontsize};
+    letter-spacing: #{$hana-sp-text-label-2xlarge-default-letterspacing};
     @content;
 }

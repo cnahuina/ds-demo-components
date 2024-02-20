@@ -1,45 +1,45 @@
-@import "./ride.scss";
+@import "./hana.scss";
 
 // Background Colors
-@mixin ride-sys-color-background-strong {
-    background-color: #{$ride-gl-color-neutral-100};
+@mixin hana-sp-color-background-strong {
+    background-color: #{$hana-core-color-neutral-100};
 }
-@mixin ride-sys-color-background-subtle {
-    background-color: #{$ride-gl-color-neutral-20};
+@mixin hana-sp-color-background-subtle {
+    background-color: #{$hana-core-color-neutral-20};
 }
-@mixin ride-sys-color-background-default{ 
-    background-color: #{$ride-gl-color-neutral-10};
+@mixin hana-sp-color-background-default{ 
+    background-color: #{$hana-core-color-neutral-10};
 }
 
 // Surface Colors
-@mixin ride-sys-color-surface-inverse {
-    background-color: #{$ride-gl-color-neutral-100};
+@mixin hana-sp-color-surface-inverse {
+    background-color: #{$hana-core-color-neutral-100};
 }
-@mixin ride-sys-color-surface-default {
-    background-color: #{$ride-gl-color-neutral-10};
+@mixin hana-sp-color-surface-default {
+    background-color: #{$hana-core-color-neutral-10};
 }
-@mixin ride-sys-color-surface-transparent {
-    background: #{$ride-gl-color-transparent};
+@mixin hana-sp-color-surface-transparent {
+    background: #{$hana-core-color-transparent};
 }
 
 // Text Colors
-@mixin ride-sys-color-text-extreme {
-    color: #{$ride-gl-color-neutral-100};
+@mixin hana-sp-color-text-extreme {
+    color: #{$hana-core-color-neutral-100};
 }
-@mixin ride-sys-color-text-inverse {
-    color: #{$ride-gl-color-neutral-0};
+@mixin hana-sp-color-text-inverse {
+    color: #{$hana-core-color-neutral-0};
 }
 
 // Border Colors
-@mixin ride-sys-color-border-extreme {
-    border-color: #{$ride-gl-color-neutral-100};
+@mixin hana-sp-color-border-extreme {
+    border-color: #{$hana-core-color-neutral-100};
 }
 
 
 // Glyph Colors
-@mixin ride-sys-color-glyph-default{
-    fill: #{$ride-gl-color-neutral-100};
+@mixin hana-sp-color-glyph-default{
+    fill: #{$hana-core-color-neutral-100};
 }
-@mixin ride-sys-color-glyph-inverse{
-    fill: #{$ride-gl-color-neutral-0};
+@mixin hana-sp-color-glyph-inverse{
+    fill: #{$hana-core-color-neutral-0};
 }
